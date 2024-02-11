@@ -1,0 +1,45 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Assignment 2</title>
+</head>
+
+<body>
+    <div class='sec'>
+        <div id="q"></div>
+        <button class="g" onclick="kalar('g')"></button><button class="y" onclick="kalar('y')"></button><button class="b" onclick="kalar('b')"></button><button class="o" onclick="kalar('o')"></button>
+    </div>
+    <div class='sec'>
+        Covert &nbsp &nbsp<input id="conv_num" type="number">
+        <select id="conv" >
+            <option value="kg" >lb to kg</option>
+            <option value="lb">kg to lb</option>
+        </select>
+        <button onclick="convert()">Go</button>
+        <span id="res"></span>
+    </div>
+    <div class="sec">
+        <input type="text" id="arr"> <br><br>
+        Max : <span id="max"></span> <br>
+        Min : <span id="min"></span> <br>
+        Sum : <span id="sum"></span> <br>
+        Reverse Order : <span id="rev"></span>
+    </div>
+    <div class="sec" id="magic">
+        Magic
+        <textarea ="textarea" rows="10" cols="70" id="mag">
+            
+        </textarea>
+        <button onclick="c()">Clear It</button>
+        <button onclick="C()">Capitalize</button>
+        <button onclick="s()">Sort</button>
+        <button onclick="r()">Reverse</button>
+        <button onclick="St()">Strip Blank</button>
+        <button onclick="a()">Add Numbers</button>
+        <button onclick="S()">Shuffle</button>
+    </div>
+</body>
+<script src="index.js"></script> 
+</html>

@@ -1,0 +1,45 @@
+#q{
+    border: 5px solid black;
+    margin: auto;
+    text-align: center;
+    width: fit-content;
+    font-size: 20px;
+    padding: 5px;
+    font-family: sans-serif;
+}
+.sec{
+    border: 1px solid black;
+    width: 50%;
+    margin: auto;
+    padding: 30px;
+    margin-top: 30px; 
+}
+button{
+    height: 3vw;
+    width: 20%;
+    margin: 1vw;
+}
+.g{
+    background-color: green;
+    color: white;
+}
+.b{
+    background-color: blue;
+    color: white;
+}
+.o{
+    background-color: orange;
+    color: black;
+}
+.y{
+    background-color: yellow;
+    color: black;
+}
+#magic{
+    font-size: 40px;
+}
+#magic button{
+    height: auto;
+    width: auto;
+    margin: auto;
+}
